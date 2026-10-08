@@ -1,0 +1,23 @@
+# Configuración privada
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Archivos locales y temporales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
+
+# Dependencias y resultados de compilación habituales
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+__pycache__/
+*.pyc
